@@ -14,7 +14,7 @@ const [data, setData] = useState(dummyData)
       {/* map through data here to return a Post and pass data as props to Post */}
       {
         data.map(item =>{
-          return <Post props={data}/>
+          return <Post post={item}/>
         })
       }
     </div>
